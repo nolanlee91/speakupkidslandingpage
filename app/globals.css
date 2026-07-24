@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 img { max-width: 100%; display: block; }
 a { color: var(--teal-d); text-decoration: none; }
@@ -105,6 +106,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
 
 /* ============ HERO ============ */
 .hero { position: relative; min-height: 620px; display: flex; align-items: center; overflow: hidden; background: var(--cream); }
+.hero-parallax { position: absolute; left: 0; right: 0; top: -9%; height: 118%; z-index: 0; }
 .hero-bg { position: absolute; inset: 0; z-index: 0; }
 .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: right center; }
 .hero-scrim {
@@ -505,25 +507,94 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .final-fig { width: 200px; height: 200px; margin: 0 auto; }
 }
 @media (max-width: 720px) {
+  .container { padding-left: 18px; padding-right: 18px; }
   .section { padding: 60px 0; }
-  .main-nav, .header-cta .login { display: none; }
+  .site-header { gap: 8px; padding: 10px 16px; }
+  .brand { gap: 8px; font-size: 18px; white-space: nowrap; }
+  .brand-mark { width: 34px; height: 34px; border-radius: 10px; }
+  .header-cta { margin-left: auto; gap: 8px; }
+  .main-nav, .header-cta .login, .desktop-header-cta { display: none; }
   .menu-toggle { display: inline-flex; margin-left: auto; }
+  .btn-lg { font-size: 16px; padding: 15px 20px; }
+  .section-title { font-size: clamp(27px, 8vw, 34px); line-height: 1.16; }
+  .section-lead { font-size: 16px; }
+
   .steps-trail { display: none; }
+  .steps-journey { margin-top: 38px; }
   .steps-grid { grid-template-columns: 1fr; gap: 46px; }
   .step:nth-child(2) { margin-top: 0; }
+  .step-fig { width: 130px; height: 130px; }
+  .step-card { padding: 36px 20px 22px; }
   .step-card { transform: none !important; }
   .feature-grid { grid-template-columns: 1fr; }
+  .feature { padding: 18px; }
   .units-grid, .games-grid { grid-template-columns: 1fr; }
   .level-card { display: block; }
   .level-media { min-height: 0; }
+  .level-body { padding: 20px; }
   .chapter-list { grid-template-columns: 1fr; }
-  .adventure-visual { padding-bottom: 48px; }
-  .adventure-scene { width: 54%; right: -4px; }
-  .map-note { left: 8px; bottom: 18px; max-width: 170px; }
+  .adventure-grid { gap: 34px; }
+  .adventure-copy .section-title { font-size: clamp(30px, 9vw, 40px); }
+  .adventure-stats { display: grid; grid-template-columns: 1fr; }
+  .adventure-stats span { width: 100%; }
+  .adventure-visual { padding: 0; }
+  .adventure-map { border-radius: 18px; }
+  .adventure-scene {
+    position: relative; right: auto; bottom: auto; z-index: 2;
+    width: 78%; margin: -34px 0 0 auto; transform: rotate(1.5deg);
+  }
+  .map-note { display: none; }
   .unit-card, .collect-card { transform: none !important; }
+
   .hero { min-height: 0; }
-  .hero-scrim { background: linear-gradient(180deg, rgba(254,250,241,0) 20%, rgba(254,250,241,0.92) 62%, var(--cream) 92%); }
-  .hero-inner { padding-top: 220px; text-align: center; margin: 0 auto; }
+  .hero-parallax { top: 0; height: 270px; transform: none !important; }
+  .hero-parallax img { object-position: 72% center !important; }
+  .hero-scrim {
+    background: linear-gradient(180deg, rgba(254,250,241,0) 0, rgba(254,250,241,.08) 32%, rgba(254,250,241,.92) 72%, var(--cream) 86%);
+  }
+  .hero-inner { max-width: 560px; padding: 282px 0 48px; text-align: center; margin: 0 auto; }
+  .hero h1 { font-size: clamp(32px, 9.4vw, 42px); }
   .hero-lead { margin-left: auto; margin-right: auto; }
   .hero-actions, .hero-points { justify-content: center; }
+  .hero-actions { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .hero-actions .btn { width: 100%; }
+  .hero-points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); text-align: left; gap: 10px 14px; }
+
+  .orbs { flex-wrap: wrap; gap: 10px; }
+  .orb { width: 58px; height: 58px; }
+  .collect-card { padding: 24px 20px; }
+  .collect-week { gap: 12px; }
+  .parents-check { grid-template-columns: 1fr; gap: 10px; }
+  .report { padding: 22px 18px; }
+  .report-stats { gap: 7px; }
+  .rstat { padding: 10px 6px; }
+  .rstat b { font-size: 19px; }
+  .rstat span { font-size: 10.5px; }
+  .plan { padding: 28px 22px; }
+  .faq-item { padding-left: 18px; padding-right: 18px; }
+  .final-cta { padding: 68px 0 76px; text-align: center; }
+  .final-grid { gap: 28px; }
+  .final-grid .btn { width: 100%; }
+  .site-footer { justify-content: center; gap: 14px 20px; padding: 26px 18px; text-align: center; }
+  .site-footer .brand-mini, .site-footer .copy { width: 100%; }
+  .site-footer .copy { margin-left: 0; }
+
+  .level-card:hover, .game-card:hover, .game-card:nth-child(even):hover { transform: none; }
+  .level-card:hover .level-media img, .game-card:hover img { transform: none; }
+  .adventure-visual:hover .adventure-map { transform: none; filter: none; }
+  .adventure-visual:hover .adventure-scene { transform: rotate(1.5deg); }
+  .adventure-visual:hover .adventure-scene img { transform: none; }
+}
+
+@media (max-width: 420px) {
+  .hero-parallax { height: 245px; }
+  .hero-inner { padding-top: 258px; }
+  .hero-points { grid-template-columns: 1fr; width: fit-content; margin-left: auto; margin-right: auto; }
+  .eyebrow { font-size: 11px; letter-spacing: .9px; padding: 6px 11px; }
+  .step-head { align-items: flex-start; flex-direction: column; }
+  .demo-row { align-items: flex-start; }
+  .adventure-scene { width: 84%; }
+  .collect-week { align-items: flex-start; flex-direction: column; }
+  .report-top { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .plan-badge { font-size: 11px; }
 }

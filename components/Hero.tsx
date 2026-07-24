@@ -5,7 +5,7 @@ import { Parallax } from "./Parallax";
 export function Hero() {
   return (
     <section className="hero" id="top" aria-labelledby="hero-title">
-      <Parallax speed={0.12} style={{ position: "absolute", left: 0, right: 0, top: "-9%", height: "118%", zIndex: 0 }}>
+      <Parallax speed={0.12} className="hero-parallax">
         <Image
           src={`${IMG}/vancouver-hero-maple-girl-v3.webp`}
           alt="Maple — cô hải ly nhỏ dẫn đường học tiếng Anh — đứng ở Vancouver"

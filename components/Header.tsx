@@ -28,7 +28,7 @@ export function Header() {
 
       <div className="header-cta">
         <a className="login" href={site.loginUrl}>Đăng nhập</a>
-        <a className="btn btn-primary" href={site.appUrl} style={{ padding: "12px 22px", fontSize: 15 }}>
+        <a className="btn btn-primary desktop-header-cta" href={site.appUrl} style={{ padding: "12px 22px", fontSize: 15 }}>
           Học thử miễn phí
         </a>
         <button
