@@ -61,6 +61,11 @@ export function Units() {
                   sizes="(max-width: 760px) 100vw, 33vw"
                 />
                 <span className="level-count">10 bài</span>
+                <div className="mobile-level-heading">
+                  <span>{item.level}</span>
+                  <strong>{item.title}</strong>
+                  <small>{item.vi}</small>
+                </div>
               </div>
               <div className="level-body">
                 <div className="level-topline">

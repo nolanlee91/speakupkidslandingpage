@@ -36,7 +36,6 @@ export function Hero() {
             <li><span className="dot" />3 Level · 30 bài MVP</li>
             <li><span className="dot" />4 Practice game</li>
             <li><span className="dot gold" />Adventure 8 Chapter</li>
-            <li><span className="dot" />Không quảng cáo</li>
           </ul>
         </div>
       </div>

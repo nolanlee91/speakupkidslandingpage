@@ -3,7 +3,6 @@ const CHECKS = [
   "Kỹ năng đang luyện",
   "Số buổi học trong tuần",
   "Điểm mạnh & phần cần ôn",
-  "Không quảng cáo",
   "Nội dung đúng độ tuổi",
 ];
 
