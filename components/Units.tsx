@@ -41,13 +41,23 @@ export function Units() {
         <div className="path-heading">
           <div>
             <span className="eyebrow">Lộ trình Learn</span>
-            <h2 className="section-title" id="path-title">Ba Level lớn dần cùng cách con dùng tiếng Anh</h2>
+            <h2 className="section-title" id="path-title">Từ những âm đầu tiên đến tiếng Anh để giải quyết vấn đề</h2>
           </div>
           <p className="section-lead">
-            Mỗi Level đã có hơn 15 bài và sẽ tiếp tục được mở rộng. Con đi từ gọi tên và mô tả, sang đọc tình huống,
-            rồi biết giải thích lựa chọn và cùng người khác tìm giải pháp.
+            Con chưa biết tiếng Anh có thể bắt đầu bằng 10 bài nền tảng ở Level 0. Level 1–3 có 20+ bài mỗi Level
+            và được cập nhật nội dung mới hàng tuần.
           </p>
         </div>
+
+        <aside className="starter-level" aria-label="Level 0 dành cho người mới bắt đầu">
+          <span className="starter-index">00</span>
+          <div className="starter-copy">
+            <span className="starter-label">Bước khởi động · dành cho người mới bắt đầu</span>
+            <h3>Level 0 · First Steps</h3>
+            <p>Nhận biết âm–chữ, nghe từ đầu tiên và làm quen với những câu tiếng Anh thật ngắn.</p>
+          </div>
+          <span className="starter-count">10 bài</span>
+        </aside>
 
         <ol className="level-grid">
           {LEVELS.map((item, index) => (
@@ -60,7 +70,7 @@ export function Units() {
                   height={1086}
                   sizes="(max-width: 760px) 100vw, 33vw"
                 />
-                <span className="level-count">15+ bài</span>
+                <span className="level-count">20+ bài</span>
                 <div className="mobile-level-heading">
                   <span>{item.level}</span>
                   <strong>{item.title}</strong>

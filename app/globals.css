@@ -227,6 +227,26 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
 /* ============ THREE-LEVEL LEARNING PATH ============ */
 .learning-path { background: linear-gradient(180deg, #eaf3f8 0%, #fefaf1 100%); }
 .path-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 520px); gap: 56px; align-items: end; }
+.starter-level {
+  display: grid; grid-template-columns: 42px minmax(0, 1fr) auto; gap: 15px; align-items: center;
+  margin-top: 32px; padding: 14px 18px; border: 1px solid rgba(63,191,175,.25);
+  border-radius: 17px; background: rgba(255,255,255,.58);
+  box-shadow: 0 8px 24px rgba(39,52,92,.055);
+}
+.starter-index {
+  display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px;
+  background: rgba(63,191,175,.13); color: var(--teal-d); font-size: 12px; font-weight: 900;
+}
+.starter-label {
+  display: block; margin-bottom: 2px; color: var(--teal-d); font-size: 10.5px;
+  font-weight: 900; letter-spacing: .08em; text-transform: uppercase;
+}
+.starter-copy h3 { display: inline; margin: 0; color: var(--navy); font-size: 16px; }
+.starter-copy p { display: inline; margin: 0 0 0 9px; color: var(--muted); font-size: 12.5px; line-height: 1.45; }
+.starter-count {
+  padding: 6px 10px; border-radius: 999px; background: #fff; color: var(--navy);
+  font-size: 11.5px; font-weight: 900; white-space: nowrap; box-shadow: var(--shadow-sm);
+}
 .level-grid {
   display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;
   margin: 48px 0 0; padding: 0; list-style: none;
@@ -368,6 +388,68 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
 .adventure-visual:hover .map-note {
   transform: translateY(-5px); background: rgba(10,25,43,.92);
 }
+
+/* Adventure 4+ — showcase đầy đủ thay cho khối giới thiệu hai mùa cũ */
+.adventure-heading {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr);
+  gap: 64px; align-items: end; margin-bottom: 46px;
+}
+.adventure-heading .section-title { max-width: 720px; color: #fff; font-size: clamp(36px, 4.6vw, 58px); }
+.adventure-heading .section-lead { color: #d1dce8; max-width: 560px; margin: 0; }
+.adventure-feature {
+  display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(310px, .7fr);
+  gap: 52px; align-items: center;
+}
+.adventure-kicker {
+  margin: 0 0 20px; color: #ffd875; font-size: 13px; font-weight: 900;
+  letter-spacing: .06em; text-transform: uppercase;
+}
+.adventure-flow > ol { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.adventure-flow > ol li {
+  display: grid; grid-template-columns: 40px 1fr; gap: 12px; padding: 13px;
+  border: 1px solid rgba(255,255,255,.12); border-radius: 15px;
+  background: rgba(255,255,255,.065);
+}
+.adventure-flow > ol li > span {
+  display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px;
+  color: #8de0d3; background: rgba(127,207,195,.14); font-size: 12px; font-weight: 900;
+}
+.adventure-flow h3 { margin: 0 0 3px; color: #fff; font-size: 15px; }
+.adventure-flow p { margin: 0; color: #cbd8e5; font-size: 12.5px; line-height: 1.48; }
+.adventure-flow .adventure-stats { margin: 18px 0; }
+.season-heading {
+  display: flex; justify-content: space-between; align-items: end; gap: 30px;
+  margin: 76px 0 24px; padding-top: 34px; border-top: 1px solid rgba(255,255,255,.12);
+}
+.season-heading span { color: #8de0d3; font-size: 11px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.season-heading h3 { margin: 6px 0 0; color: #fff; font-family: var(--font-head); font-size: clamp(25px, 3vw, 36px); }
+.season-heading p { margin: 0; color: #cbd8e5; font-size: 13px; font-weight: 700; }
+.season-gallery {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px;
+  margin: 0; padding: 0; list-style: none;
+}
+.season-gallery > li {
+  overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 20px;
+  background: rgba(255,255,255,.075); box-shadow: 0 16px 36px rgba(6,14,30,.18);
+  transition: transform .3s ease, background-color .3s ease, box-shadow .3s ease;
+}
+.season-cover { position: relative; aspect-ratio: 16 / 10; overflow: hidden; }
+.season-cover::after {
+  content: ""; position: absolute; inset: 45% 0 0;
+  background: linear-gradient(transparent, rgba(12,27,47,.72));
+}
+.season-cover img { object-fit: cover; transition: transform .5s cubic-bezier(.2,.7,.2,1); }
+.season-cover .season-number { position: absolute; z-index: 2; left: 13px; bottom: 12px; }
+.season-body { padding: 17px 16px 18px; }
+.season-body h3 { min-height: 38px; margin: 0 0 3px; color: #fff; font-size: 16px; line-height: 1.2; }
+.season-vi { display: block; min-height: 32px; color: #8de0d3; font-size: 11.5px; font-weight: 800; line-height: 1.35; }
+.season-body p { min-height: 71px; margin: 10px 0; color: #cbd8e5; font-size: 12px; line-height: 1.48; }
+.season-body small { color: #ffd875; font-size: 10.5px; font-weight: 800; }
+.season-gallery > li:hover {
+  transform: translateY(-7px); background: rgba(255,255,255,.11);
+  box-shadow: 0 24px 46px rgba(6,14,30,.3);
+}
+.season-gallery > li:hover .season-cover img { transform: scale(1.045); }
 
 /* ============ REWARDS (Động lực) ============ */
 .rewards { background: linear-gradient(180deg, #fefaf1, #fbf3e4); }
@@ -515,6 +597,10 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .hero-card { display: none; }
   .collect-fig { display: none; }
   .final-fig { width: 200px; height: 200px; margin: 0 auto; }
+  .adventure-heading, .adventure-feature { grid-template-columns: 1fr; gap: 28px; }
+  .adventure-heading { margin-bottom: 32px; }
+  .adventure-heading .section-lead { max-width: 720px; }
+  .season-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 720px) {
   .container { padding-left: 18px; padding-right: 18px; }
@@ -540,6 +626,10 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .feature { padding: 18px; }
   .units-grid, .games-grid { grid-template-columns: 1fr; }
   .level-card { display: block; }
+  .starter-level { grid-template-columns: 38px minmax(0, 1fr) auto; gap: 11px; padding: 13px; }
+  .starter-index { width: 38px; height: 38px; }
+  .starter-copy h3, .starter-copy p { display: block; margin-left: 0; }
+  .starter-copy p { margin-top: 3px; }
   .level-media { min-height: 0; }
   .level-body { padding: 20px; }
   .mobile-level-heading {
@@ -557,6 +647,8 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .mobile-level-heading small { font-size: 13px; font-weight: 700; color: rgba(255,255,255,.84); }
   .level-body .level-topline, .level-body > h3, .level-body > .level-vi { display: none; }
   .adventure-grid { gap: 34px; }
+  .adventure-heading { gap: 16px; }
+  .adventure-heading .section-title { font-size: clamp(30px, 9vw, 40px); }
   .adventure-copy .section-title { font-size: clamp(30px, 9vw, 40px); }
   .adventure-stats { display: grid; grid-template-columns: 1fr; }
   .adventure-stats span { width: 100%; }
@@ -567,6 +659,16 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
     width: 78%; margin: -34px 0 0 auto; transform: rotate(1.5deg);
   }
   .map-note { display: none; }
+  .adventure-flow .adventure-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .adventure-flow .adventure-stats span { width: auto; padding: 9px 7px; text-align: center; }
+  .adventure-flow .adventure-stats b { display: block; margin: 0 0 2px; }
+  .season-heading { display: block; margin-top: 54px; }
+  .season-heading p { margin-top: 8px; }
+  .season-gallery { grid-template-columns: 1fr; }
+  .season-gallery > li { display: grid; grid-template-columns: 42% 1fr; }
+  .season-cover { min-height: 190px; aspect-ratio: auto; }
+  .season-body h3, .season-vi, .season-body p { min-height: 0; }
+  .season-body p { margin: 8px 0; }
   .unit-card, .collect-card { transform: none !important; }
 
   .hero { min-height: 0; }
@@ -614,9 +716,13 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .hero-inner { padding-top: 258px; }
   .hero-points { grid-template-columns: 1fr; width: fit-content; margin-left: auto; margin-right: auto; }
   .eyebrow { font-size: 11px; letter-spacing: .9px; padding: 6px 11px; }
+  .starter-level { grid-template-columns: 38px 1fr; }
+  .starter-count { grid-column: 2; justify-self: start; }
   .step-head { align-items: flex-start; flex-direction: column; }
   .demo-row { align-items: flex-start; }
   .adventure-scene { width: 84%; }
+  .season-gallery > li { display: block; }
+  .season-cover { min-height: 0; aspect-ratio: 16 / 10; }
   .collect-week { align-items: flex-start; flex-direction: column; }
   .report-top { align-items: flex-start; flex-direction: column; gap: 2px; }
   .plan-badge { font-size: 11px; }
