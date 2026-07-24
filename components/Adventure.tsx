@@ -1,67 +1,75 @@
 import Image from "next/image";
 import { IMG, site } from "@/lib/site";
 
-const CHAPTERS = [
-  "The Message at the Harbour",
-  "The Wrong Ferry",
-  "Footprints in the Forest",
-  "The Cabin Clue",
-  "The Museum Mystery",
-  "The Stormy Waterfront",
-  "The Lighthouse Code",
-  "The Hidden Garden",
-];
+const SEASONS = [
+  {
+    number: "01",
+    title: "The Lost Maple Compass",
+    desc: "Theo dấu bản đồ, so sánh manh mối và ghép lại chiếc la bàn thất lạc.",
+    meta: "8 Chapter · suy luận từ hình ảnh",
+  },
+  {
+    number: "02",
+    title: "The Silent Harbour Signal",
+    desc: "Lần theo tín hiệu Blue 7 qua cảng, đảo, thủy triều và những bằng chứng âm thanh.",
+    meta: "8 Chapter · nghe, kiểm chứng và giải thích",
+  },
+] as const;
 
 export function Adventure() {
   return (
     <section className="section adventure-showcase" id="phieu-luu" aria-labelledby="adventure-title">
       <div className="container adventure-grid">
         <div className="adventure-copy">
-          <span className="eyebrow gold">Adventure · Season 1</span>
-          <h2 className="section-title" id="adventure-title">The Lost Maple Compass</h2>
+          <span className="eyebrow gold">Adventure · 2 Season</span>
+          <h2 className="section-title" id="adventure-title">Hai cuộc phiêu lưu, hai bí ẩn độc lập</h2>
           <p className="section-lead">
-            Adventure là một tuyến truyện riêng, không phải bài Learn đổi tên. Con đọc tình huống, quan sát tranh,
-            suy luận bằng tiếng Anh và mở từng Chapter trên bản đồ.
+            Adventure là tuyến truyện riêng, không phải bài Learn đổi tên. Con quan sát, đọc, nghe và dùng bằng chứng
+            để đưa ra kết luận trước khi mở Chapter tiếp theo trên bản đồ.
           </p>
 
-          <div className="adventure-stats" aria-label="Thông tin Season 1">
-            <span><b>8</b> Chapter</span>
-            <span><b>1</b> bí ẩn xuyên suốt</span>
-            <span><b>3</b> mảnh la bàn</span>
+          <div className="adventure-stats" aria-label="Thông tin Adventure">
+            <span><b>2</b> Season</span>
+            <span><b>16</b> Chapter</span>
+            <span><b>2</b> bí ẩn độc lập</span>
           </div>
 
-          <ol className="chapter-list">
-            {CHAPTERS.map((chapter, index) => (
-              <li key={chapter}>
-                <span>{String(index + 1).padStart(2, "0")}</span>
-                {chapter}
+          <ol className="season-list">
+            {SEASONS.map((season) => (
+              <li key={season.number}>
+                <span className="season-number">{season.number}</span>
+                <div>
+                  <h3>{season.title}</h3>
+                  <p>{season.desc}</p>
+                  <small>{season.meta}</small>
+                </div>
               </li>
             ))}
           </ol>
 
-          <a className="btn btn-primary" href={site.appUrl}>Khám phá Season 1</a>
+          <a className="btn btn-primary" href={site.appUrl}>Khám phá Adventure</a>
         </div>
 
         <div className="adventure-visual">
           <Image
             className="adventure-map"
-            src={`${IMG}/product/adventure-season-map.webp`}
-            alt="Bản đồ tám Chapter của The Lost Maple Compass"
-            width={1672}
-            height={941}
+            src={`${IMG}/product/adventure-season-02-map.webp`}
+            alt="Bản đồ biển tám Chapter của The Silent Harbour Signal"
+            width={1600}
+            height={900}
             sizes="(max-width: 960px) 100vw, 52vw"
           />
           <figure className="adventure-scene">
             <Image
-              src={`${IMG}/product/adventure-hidden-garden.webp`}
-              alt="Maple và hai người bạn ghép ba mảnh la bàn trong khu vườn bí mật"
+              src={`${IMG}/product/adventure-season-02-finale.webp`}
+              alt="Maple và nhóm nghiên cứu khôi phục tín hiệu của Blue 7 tại cảng"
               width={1448}
               height={1086}
               sizes="(max-width: 760px) 58vw, 320px"
             />
-            <figcaption>Chapter 8 · The Hidden Garden</figcaption>
+            <figcaption>Season 2 · The Silent Harbour Signal</figcaption>
           </figure>
-          <span className="map-note">Mỗi Chapter mở một phần của bí ẩn</span>
+          <span className="map-note">Mỗi bằng chứng đưa con tới Chapter tiếp theo</span>
         </div>
       </div>
     </section>

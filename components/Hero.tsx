@@ -33,9 +33,9 @@ export function Hero() {
             </a>
           </div>
           <ul className="hero-points">
-            <li><span className="dot" />3 Level · 30 bài MVP</li>
+            <li><span className="dot" />3 Level · 45+ bài Learn</li>
             <li><span className="dot" />4 Practice game</li>
-            <li><span className="dot gold" />Adventure 8 Chapter</li>
+            <li><span className="dot gold" />2 Season · 16 Chapter</li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,7 @@ export function Hero() {
         <span className="chip">Đang học · Level 2</span>
         <h3>Stories & Situations</h3>
         <div className="bar"><i style={{ width: "64%" }} /></div>
-        <div className="meta"><span>6/10 bài</span><span className="star">★ 42</span></div>
+        <div className="meta"><span>10/15 bài</span><span className="star">★ 42</span></div>
       </aside>
     </section>
   );

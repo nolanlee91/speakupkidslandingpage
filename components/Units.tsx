@@ -27,7 +27,7 @@ const LEVELS = [
     title: "Opinions & Conversations",
     vi: "Ý kiến và hội thoại",
     image: "learn-level-3.webp",
-    alt: "Học sinh cùng kiểm tra các giải pháp giúp trường học dễ tiếp cận hơn",
+    alt: "Học sinh cùng kiểm tra và cải thiện các giải pháp giúp trường học dễ tiếp cận hơn",
     focus: ["Nêu và bảo vệ ý kiến", "So sánh lựa chọn", "Giải quyết vấn đề cùng nhau"],
     example: "Making Choices · Giving Reasons · Solving Problems",
     tone: "coral",
@@ -44,7 +44,7 @@ export function Units() {
             <h2 className="section-title" id="path-title">Ba Level lớn dần cùng cách con dùng tiếng Anh</h2>
           </div>
           <p className="section-lead">
-            Mỗi Level hiện có 10 bài trong bản MVP. Con đi từ gọi tên và mô tả, sang đọc tình huống,
+            Mỗi Level đã có hơn 15 bài và sẽ tiếp tục được mở rộng. Con đi từ gọi tên và mô tả, sang đọc tình huống,
             rồi biết giải thích lựa chọn và cùng người khác tìm giải pháp.
           </p>
         </div>
@@ -60,7 +60,7 @@ export function Units() {
                   height={1086}
                   sizes="(max-width: 760px) 100vw, 33vw"
                 />
-                <span className="level-count">10 bài</span>
+                <span className="level-count">15+ bài</span>
                 <div className="mobile-level-heading">
                   <span>{item.level}</span>
                   <strong>{item.title}</strong>

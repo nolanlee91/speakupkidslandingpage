@@ -64,7 +64,7 @@ export function Steps() {
                   <span className="demo-ic c" aria-hidden="true">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z" /></svg>
                   </span>
-                  <span><span className="demo-strong">Season 1: The Lost Maple Compass</span><br /><span className="demo-sub">8 Chapter · một bí ẩn xuyên suốt</span></span>
+                  <span><span className="demo-strong">2 Season · 2 cuộc điều tra</span><br /><span className="demo-sub">16 Chapter · bản đồ và bằng chứng riêng</span></span>
                 </div>
               </div>
             </div>

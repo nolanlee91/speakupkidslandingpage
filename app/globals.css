@@ -241,7 +241,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
 .level-card:hover .level-media img { transform: scale(1.025); }
 .mobile-level-heading { display: none; }
 .level-count {
-  position: absolute; top: 14px; right: 14px; padding: 6px 11px; border-radius: 999px;
+  position: absolute; z-index: 3; top: 14px; right: 14px; padding: 6px 11px; border-radius: 999px;
   background: rgba(255,255,255,.9); color: var(--navy); font-size: 12px; font-weight: 900;
   box-shadow: var(--shadow-sm); backdrop-filter: blur(6px);
 }
@@ -316,12 +316,21 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   background: rgba(255,255,255,.07); color: #dce6ef; font-size: 12.5px; font-weight: 700;
 }
 .adventure-stats b { color: #ffd875; font-size: 16px; margin-right: 4px; }
-.chapter-list {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 7px 18px;
-  margin: 0 0 28px; padding: 0; list-style: none;
+.season-list {
+  display: grid; gap: 10px; margin: 0 0 28px; padding: 0; list-style: none;
 }
-.chapter-list li { display: flex; gap: 8px; color: #e7eef4; font-size: 13px; font-weight: 700; }
-.chapter-list span { color: #7fcfc3; font-size: 11px; font-weight: 900; padding-top: 2px; }
+.season-list li {
+  display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: start;
+  padding: 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 15px;
+  background: rgba(255,255,255,.06);
+}
+.season-number {
+  display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px;
+  background: rgba(127,207,195,.14); color: #8de0d3; font-size: 13px; font-weight: 900;
+}
+.season-list h3 { margin: 0 0 4px; color: #fff; font-size: 16px; }
+.season-list p { margin: 0 0 5px; color: #d1dce8; font-size: 12.5px; line-height: 1.45; }
+.season-list small { color: #ffd875; font-size: 11px; font-weight: 800; }
 .adventure-visual {
   position: relative; padding: 12px 0 70px; perspective: 1100px;
 }
@@ -547,7 +556,6 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   }
   .mobile-level-heading small { font-size: 13px; font-weight: 700; color: rgba(255,255,255,.84); }
   .level-body .level-topline, .level-body > h3, .level-body > .level-vi { display: none; }
-  .chapter-list { grid-template-columns: 1fr; }
   .adventure-grid { gap: 34px; }
   .adventure-copy .section-title { font-size: clamp(30px, 9vw, 40px); }
   .adventure-stats { display: grid; grid-template-columns: 1fr; }

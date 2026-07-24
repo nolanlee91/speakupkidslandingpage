@@ -7,7 +7,7 @@ export const site = {
   url: "https://speakupkids.net",
   title: "SpeakUp Kids — Lộ trình tiếng Anh qua Learn, Practice & Adventure (9–12 tuổi)",
   description:
-    "Ba Level Learn, bốn trò Practice được chấm điểm và Adventure theo cốt truyện giúp trẻ 9–12 tuổi học, luyện và dùng tiếng Anh có mục đích.",
+    "Hơn 45 bài qua ba Level Learn, bốn trò Practice được chấm điểm và hai Season Adventure giúp trẻ 9–12 tuổi học, luyện và dùng tiếng Anh có mục đích.",
 };
 
 // Điều hướng trong trang (anchor thật, cuộn tới section)
