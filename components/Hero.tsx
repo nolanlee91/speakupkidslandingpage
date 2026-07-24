@@ -20,10 +20,10 @@ export function Hero() {
       <div className="container" style={{ position: "relative", zIndex: 2 }}>
         <div className="hero-inner">
           <span className="eyebrow">Tiếng Anh cho trẻ 9–12 tuổi</span>
-          <h1 id="hero-title">Học tiếng Anh như một chuyến phiêu lưu</h1>
+          <h1 id="hero-title">Học chắc từng bước. Dùng tiếng Anh để khám phá.</h1>
           <p className="hero-lead">
-            Cùng Maple, con học từ vựng, cấu trúc câu và nghe hiểu theo từng Unit — rồi vận dụng tất cả
-            để hoàn thành nhiệm vụ trong những chuyến khám phá thế giới thật.
+            Ba Level Learn xây nền tảng theo độ khó, Practice giúp luyện lại có chấm điểm,
+            còn Adventure đưa tiếng Anh vào một câu chuyện mà con thật sự muốn đi tiếp.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary btn-lg" href={site.appUrl}>Cho con học thử miễn phí</a>
@@ -33,18 +33,19 @@ export function Hero() {
             </a>
           </div>
           <ul className="hero-points">
-            <li><span className="dot" />Có lộ trình theo Unit</li>
+            <li><span className="dot" />3 Level · 30 bài MVP</li>
+            <li><span className="dot" />4 Practice game</li>
+            <li><span className="dot gold" />Adventure 8 Chapter</li>
             <li><span className="dot" />Không quảng cáo</li>
-            <li><span className="dot gold" />Báo cáo cho phụ huynh — sắp ra mắt</li>
           </ul>
         </div>
       </div>
 
       <aside className="hero-card" aria-label="Ví dụ tiến độ học trong app">
-        <span className="chip">Đang học · Unit 3</span>
-        <h3>In the Classroom</h3>
+        <span className="chip">Đang học · Level 2</span>
+        <h3>Stories & Situations</h3>
         <div className="bar"><i style={{ width: "64%" }} /></div>
-        <div className="meta"><span>16/25 từ vựng</span><span className="star">★ 42</span></div>
+        <div className="meta"><span>6/10 bài</span><span className="star">★ 42</span></div>
       </aside>
     </section>
   );

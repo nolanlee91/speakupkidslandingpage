@@ -4,6 +4,7 @@ import { Steps } from "@/components/Steps";
 import { Curriculum } from "@/components/Curriculum";
 import { Units } from "@/components/Units";
 import { Games } from "@/components/Games";
+import { Adventure } from "@/components/Adventure";
 import { Rewards } from "@/components/Rewards";
 import { Parents } from "@/components/Parents";
 import { Pricing } from "@/components/Pricing";
@@ -21,6 +22,7 @@ export default function Page() {
         <Curriculum />
         <Units />
         <Games />
+        <Adventure />
         <Rewards />
         <Parents />
         <Pricing />

@@ -12,10 +12,10 @@ export function Steps() {
       <div className="container">
         <div className="center" style={{ maxWidth: 660, margin: "0 auto 8px" }}>
           <span className="eyebrow">Cách học</span>
-          <h2 className="section-title" id="steps-title">Không chỉ chơi — con thực sự đang học</h2>
+          <h2 className="section-title" id="steps-title">Ba phần khác nhau, cùng giữ một nhịp học</h2>
           <p className="section-lead">
-            Mỗi Unit là một chặng trên hành trình: học kiến thức mới, luyện tập được máy chấm,
-            rồi vận dụng trong nhiệm vụ theo câu chuyện.
+            Learn, Practice và Adventure có tiến độ riêng. Con có thể học bài mới, luyện đúng điểm còn yếu
+            hoặc tiếp tục câu chuyện — không bị ép đi theo một vòng lặp cứng.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export function Steps() {
           <article className="step">
             <Image className="step-fig" src={`${IMG}/gen/mascot-book.webp`} alt="Maple cầm sách học bài" width={150} height={150} />
             <div className="step-card">
-              <div className="step-head"><span className="step-num t">Bước 1</span><h3>Learn</h3></div>
+              <div className="step-head"><span className="step-num t">Nền tảng</span><h3>Learn</h3></div>
               <p>Học từ vựng theo ngữ cảnh, cấu trúc câu và nghe hiểu theo từng Unit — kiến thức được xây có lộ trình, không rời rạc.</p>
               <div className="step-demo t">
                 <div className="demo-row">
@@ -41,7 +41,7 @@ export function Steps() {
           <article className="step">
             <Image className="step-fig" src={`${IMG}/gen/maple-pose-think.webp`} alt="Maple đang suy nghĩ" width={150} height={150} />
             <div className="step-card">
-              <div className="step-head"><span className="step-num g">Bước 2</span><h3>Practice</h3></div>
+              <div className="step-head"><span className="step-num g">Luyện lại</span><h3>Practice</h3></div>
               <p>Luyện bằng hoạt động có đáp án và được máy chấm ngay — con biết mình đúng ở đâu, sai vì sao.</p>
               <div className="step-demo g">
                 <div className="demo-strong" style={{ marginBottom: 10 }}>Sắp xếp thành câu đúng:</div>
@@ -57,14 +57,14 @@ export function Steps() {
           <article className="step">
             <Image className="step-fig" src={`${IMG}/gen/maple-pose-cheer.webp`} alt="Maple reo mừng ăn mừng" width={150} height={150} />
             <div className="step-card">
-              <div className="step-head"><span className="step-num c">Bước 3</span><h3>Adventure</h3></div>
-              <p>Vận dụng kiến thức trong nhiệm vụ theo câu chuyện — mỗi Unit là một chương phiêu lưu, hoàn thành để mở chương tiếp theo.</p>
+              <div className="step-head"><span className="step-num c">Khám phá</span><h3>Adventure</h3></div>
+              <p>Một tuyến truyện độc lập theo Season. Con quan sát, đọc hiểu và suy luận để mở Chapter tiếp theo — không phụ thuộc số Unit Learn đã hoàn thành.</p>
               <div className="step-demo c">
                 <div className="demo-row">
                   <span className="demo-ic c" aria-hidden="true">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z" /></svg>
                   </span>
-                  <span><span className="demo-strong">Chương 3: Đồ vật thất lạc trong lớp</span><br /><span className="demo-sub">Dùng mẫu câu Where is…? vừa học</span></span>
+                  <span><span className="demo-strong">Season 1: The Lost Maple Compass</span><br /><span className="demo-sub">8 Chapter · một bí ẩn xuyên suốt</span></span>
                 </div>
               </div>
             </div>

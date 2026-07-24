@@ -2,18 +2,19 @@
 export const site = {
   name: "SpeakUp Kids",
   // URL app thật (đang chạy). Đổi thành domain production của bạn khi có.
-  appUrl: "https://speakupkids.up.railway.app/",
-  loginUrl: "https://speakupkids.up.railway.app/",
-  url: "https://speakupkids.com",
-  title: "SpeakUp Kids — Học tiếng Anh như một chuyến phiêu lưu (9–12 tuổi)",
+  appUrl: "https://app.speakupkids.net/",
+  loginUrl: "https://app.speakupkids.net/",
+  url: "https://speakupkids.net",
+  title: "SpeakUp Kids — Lộ trình tiếng Anh qua Learn, Practice & Adventure (9–12 tuổi)",
   description:
-    "Cùng Maple, con học từ vựng, cấu trúc câu và nghe hiểu theo từng Unit, rồi vận dụng trong nhiệm vụ khám phá. Tiếng Anh có lộ trình cho trẻ 9–12 tuổi. Học thử miễn phí.",
+    "Ba Level Learn, bốn trò Practice được chấm điểm và Adventure theo cốt truyện giúp trẻ 9–12 tuổi học, luyện và dùng tiếng Anh có mục đích.",
 };
 
 // Điều hướng trong trang (anchor thật, cuộn tới section)
 export const nav = [
   { label: "Cách học", href: "#cach-hoc" },
-  { label: "Nội dung", href: "#noi-dung" },
+  { label: "Lộ trình", href: "#lo-trinh" },
+  { label: "Adventure", href: "#phieu-luu" },
   { label: "Dành cho phụ huynh", href: "#phu-huynh" },
   { label: "Bảng giá", href: "#bang-gia" },
 ];
