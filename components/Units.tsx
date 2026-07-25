@@ -44,7 +44,7 @@ export function Units() {
             <h2 className="section-title" id="path-title">Từ những âm đầu tiên đến tiếng Anh để giải quyết vấn đề</h2>
           </div>
           <p className="section-lead">
-            Con chưa biết tiếng Anh có thể bắt đầu bằng 10 bài nền tảng ở Level 0. Level 1–3 có 20+ bài mỗi Level
+            Con chưa biết tiếng Anh có thể bắt đầu bằng 10 bài nền tảng ở Level 0. Level 1–3 có 30+ bài mỗi Level
             và được cập nhật nội dung mới hàng tuần.
           </p>
         </div>
@@ -70,7 +70,7 @@ export function Units() {
                   height={1086}
                   sizes="(max-width: 760px) 100vw, 33vw"
                 />
-                <span className="level-count">20+ bài</span>
+                <span className="level-count">30+ bài</span>
                 <div className="mobile-level-heading">
                   <span>{item.level}</span>
                   <strong>{item.title}</strong>
