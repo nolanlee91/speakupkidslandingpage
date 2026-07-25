@@ -2,10 +2,10 @@ import Image from "next/image";
 import { IMG } from "@/lib/site";
 
 const GAMES: { img: string; title: string; desc: string; skill: string; cls: "t" | "g" | "c" | "b" }[] = [
-  { img: "game-picdet", title: "Picture Detective", desc: "Quan sát cảnh, đọc câu hỏi và suy luận để tìm câu trả lời.", skill: "Luyện: quan sát, đọc hiểu & suy luận", cls: "t" },
-  { img: "game-puzzle", title: "Sentence Puzzle", desc: "Sắp xếp từ thành câu đúng — trật tự từ và cấu trúc câu.", skill: "Luyện: trật tự từ & cấu trúc", cls: "g" },
-  { img: "game-riddle", title: "English Riddles", desc: "Giải câu đố từ manh mối tiếng Anh — luyện đọc hiểu.", skill: "Luyện: đọc hiểu manh mối", cls: "c" },
-  { img: "game-talk", title: "Describe the Picture", desc: "Điền từ, chọn cấu trúc và xây câu tiếng Anh để mô tả bức tranh.", skill: "Luyện: điền từ & xây câu", cls: "b" },
+  { img: "game-picdet", title: "Picture Detective", desc: "Quan sát một bức tranh, suy luận, chọn mô tả đúng rồi xây câu và nói theo Maple.", skill: "Luyện: quan sát · suy luận · mô tả tranh", cls: "t" },
+  { img: "game-puzzle", title: "Sentence Puzzle", desc: "Sắp xếp các từ thành câu tiếng Anh đúng theo từng chủ đề và cấp độ.", skill: "Luyện: trật tự từ · cấu trúc câu", cls: "g" },
+  { img: "game-riddle", title: "English Riddles", desc: "Đọc hoặc nghe các manh mối tiếng Anh rồi chọn lời giải hợp lý.", skill: "Luyện: đọc/nghe hiểu · suy luận từ manh mối", cls: "c" },
+  { img: "game-listen", title: "Listen & Choose", desc: "Nghe Maple đọc câu tiếng Anh rồi chọn đúng ý nghĩa trong các đáp án.", skill: "Luyện: nghe hiểu · nhận biết ý nghĩa", cls: "b" },
 ];
 
 export function Games() {
