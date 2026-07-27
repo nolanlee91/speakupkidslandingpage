@@ -22,7 +22,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Có dùng thử miễn phí không?",
-    a: "Có. Bạn có thể cho con bắt đầu miễn phí ngay, không cần thẻ. Gói Premium có thời gian dùng thử để trải nghiệm đầy đủ các Unit và hoạt động.",
+    a: "Có. Con có thể học toàn bộ Level 0 Phonics, một số bài Learn, Đố vui, Thám tử hình ảnh và Adventure Season 1 mà không cần thẻ. Khi phù hợp, phụ huynh có thể mở Pro trọn đời bằng một lần thanh toán.",
   },
 ];
 
