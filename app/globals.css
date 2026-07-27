@@ -389,7 +389,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   transform: translateY(-5px); background: rgba(10,25,43,.92);
 }
 
-/* Adventure 4+ — showcase đầy đủ thay cho khối giới thiệu hai mùa cũ */
+/* Adventure 8+ — showcase đầy đủ theo lộ trình hiện tại */
 .adventure-heading {
   display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr);
   gap: 64px; align-items: end; margin-bottom: 46px;

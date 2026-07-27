@@ -35,7 +35,7 @@ export function Hero() {
           <ul className="hero-points">
             <li><span className="dot" />4 Level · 100+ bài Learn</li>
             <li><span className="dot" />4 Practice game</li>
-            <li><span className="dot gold" />4+ Season · 28+ Chapter</li>
+            <li><span className="dot gold" />8+ Season · 50+ Chapter</li>
           </ul>
         </div>
       </div>

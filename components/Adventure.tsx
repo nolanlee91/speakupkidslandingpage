@@ -34,6 +34,38 @@ const SEASONS = [
     meta: "6 Chapter · bằng chứng & quyết định",
     image: "adventure-season-04-map.webp",
   },
+  {
+    number: "05",
+    title: "The Story Atlas",
+    vi: "Cuốn bản đồ truyện",
+    desc: "Bước vào những câu chuyện bị bỏ dở, đọc manh mối và lựa chọn cách viết tiếp mỗi hành trình.",
+    meta: "6 Chapter · đọc hiểu & kể chuyện",
+    image: "adventure-season-05-map.webp",
+  },
+  {
+    number: "06",
+    title: "The Lantern Market Challenge",
+    vi: "Thử thách chợ đèn lồng",
+    desc: "Cùng Maple tổ chức khu chợ: sắp xếp gian hàng, xử lý dị ứng, ngân sách và lịch giao hàng.",
+    meta: "6 Chapter · giao tiếp & lập kế hoạch",
+    image: "adventure-season-06-map.webp",
+  },
+  {
+    number: "07",
+    title: "The Junior Newsroom",
+    vi: "Phòng tin trẻ: Sự thật hay tin đồn?",
+    desc: "Kiểm tra ảnh, phỏng vấn nhân chứng và đối chiếu nguồn trước khi xuất bản một bản tin đáng tin cậy.",
+    meta: "6 Chapter · kiểm chứng & tư duy phản biện",
+    image: "adventure-season-07-map.webp",
+  },
+  {
+    number: "08",
+    title: "Mission Moonbase",
+    vi: "Nhiệm vụ căn cứ Mặt Trăng",
+    desc: "Tham gia phi hành đoàn, cân nhắc hàng hóa, tuyến rover và dữ liệu để xây căn cứ đầu tiên.",
+    meta: "6 Chapter · quy trình & ra quyết định",
+    image: "adventure-season-08-map.webp",
+  },
 ] as const;
 
 const JOURNEY = [
@@ -48,7 +80,7 @@ export function Adventure() {
       <div className="container">
         <header className="adventure-heading">
           <div>
-            <span className="eyebrow gold">Adventure · 4+ mùa phiêu lưu</span>
+            <span className="eyebrow gold">Adventure · 8+ mùa phiêu lưu</span>
             <h2 className="section-title" id="adventure-title">Tiếng Anh trở thành một phần của câu chuyện</h2>
           </div>
           <p className="section-lead">
@@ -61,21 +93,21 @@ export function Adventure() {
           <div className="adventure-visual">
             <Image
               className="adventure-map"
-              src={`${IMG}/product/adventure-season-04-map.webp`}
-              alt="Bản đồ hành trình lên trạm thời tiết trên núi của Maple"
+              src={`${IMG}/product/adventure-season-08-map.webp`}
+              alt="Bản đồ nhiệm vụ xây căn cứ Mặt Trăng của Maple"
               width={1600}
               height={900}
               sizes="(max-width: 960px) 100vw, 58vw"
             />
             <figure className="adventure-scene">
               <Image
-                src={`${IMG}/product/adventure-season-04-scene.webp`}
-                alt="Maple cùng các bạn khôi phục trạm thời tiết trên đỉnh núi"
+                src={`${IMG}/product/adventure-season-08-scene.webp`}
+                alt="Maple cùng phi hành đoàn lựa chọn nơi xây căn cứ Mặt Trăng"
                 width={1200}
                 height={900}
                 sizes="(max-width: 760px) 72vw, 330px"
               />
-              <figcaption>Season 4 · The Mountain Weather Station</figcaption>
+              <figcaption>Season 8 · Mission Moonbase</figcaption>
             </figure>
             <span className="map-note">Đi qua từng Chapter và mở khóa điểm đến mới</span>
           </div>
@@ -91,9 +123,9 @@ export function Adventure() {
               ))}
             </ol>
             <div className="adventure-stats" aria-label="Thông tin Adventure">
-              <span><b>4+</b> Season</span>
-              <span><b>28+</b> Chapter</span>
-              <span><b>24+</b> vật phẩm</span>
+              <span><b>8+</b> Season</span>
+              <span><b>50+</b> Chapter</span>
+              <span><b>60+</b> vật phẩm</span>
             </div>
             <a className="btn btn-primary" href={site.appUrl}>Bắt đầu phiêu lưu</a>
           </div>
@@ -101,7 +133,7 @@ export function Adventure() {
 
         <div className="season-heading">
           <div><span>Thế giới đang mở</span><h3>Chọn cuộc phiêu lưu của con</h3></div>
-          <p>4 mùa hiện có · những mùa mới sẽ tiếp tục được bổ sung</p>
+          <p>8 mùa hiện có · những mùa mới sẽ tiếp tục được bổ sung</p>
         </div>
 
         <ol className="season-gallery">

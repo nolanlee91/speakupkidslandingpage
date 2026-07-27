@@ -64,7 +64,7 @@ export function Steps() {
                   <span className="demo-ic c" aria-hidden="true">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z" /></svg>
                   </span>
-                  <span><span className="demo-strong">4+ Season · những thế giới độc lập</span><br /><span className="demo-sub">28+ Chapter · bản đồ, vật phẩm và câu chuyện riêng</span></span>
+                  <span><span className="demo-strong">8+ Season · những thế giới độc lập</span><br /><span className="demo-sub">50+ Chapter · bản đồ, vật phẩm và câu chuyện riêng</span></span>
                 </div>
               </div>
             </div>
