@@ -3,7 +3,6 @@ export const site = {
   name: "SpeakUp Kids",
   // URL app thật (đang chạy). Đổi thành domain production của bạn khi có.
   appUrl: "https://app.speakupkids.net/",
-  loginUrl: "https://app.speakupkids.net/",
   url: "https://speakupkids.net",
   title: "SpeakUp Kids — Lộ trình tiếng Anh qua Learn, Practice & Adventure (9–12 tuổi)",
   description:
