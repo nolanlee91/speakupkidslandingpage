@@ -1,7 +1,7 @@
 const FEATURES: { ic: string; cls: "t" | "g" | "c"; title: string; desc: string }[] = [
   { ic: "Aa", cls: "t", title: "Từ vựng theo ngữ cảnh", desc: "Học từ trong cảnh thật, không phải danh sách rời" },
   { ic: "S·V", cls: "g", title: "Cấu trúc câu", desc: "Mẫu câu hỏi – đáp, thì và trật tự từ cơ bản" },
-  { ic: "🎧", cls: "c", title: "Nghe hiểu", desc: "Hội thoại tốc độ tự nhiên, có phụ đề bật/tắt" },
+  { ic: "🎧", cls: "c", title: "Nghe hiểu", desc: "Nghe câu và đoạn hội thoại theo ngữ cảnh, có phần chữ hỗ trợ" },
   { ic: "⋯→", cls: "t", title: "Xây câu", desc: "Ghép từ thành câu đúng ngữ pháp, tăng dần độ khó" },
   { ic: "🔍", cls: "g", title: "Quan sát & suy luận", desc: "Nhìn tranh, tìm manh mối và trả lời bằng tiếng Anh" },
   { ic: "📖", cls: "c", title: "Đọc hiểu chuyện ngắn", desc: "Truyện theo Unit với câu hỏi kiểm tra hiểu" },

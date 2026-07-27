@@ -7,7 +7,7 @@ export const site = {
   url: "https://speakupkids.net",
   title: "SpeakUp Kids — Lộ trình tiếng Anh qua Learn, Practice & Adventure (9–12 tuổi)",
   description:
-    "100+ bài qua bốn Level Learn từ người mới bắt đầu, nội dung mới hàng tuần, bốn trò Practice được chấm điểm và 8+ Season Adventure với 50+ Chapter cho trẻ 9–12 tuổi.",
+    "100+ bài qua bốn cấp độ Learn từ người mới bắt đầu, nội dung mới hàng tuần, bốn trò Practice được chấm điểm và 8+ mùa Adventure với 50+ chương cho trẻ 9–12 tuổi.",
 };
 
 // Điều hướng trong trang (anchor thật, cuộn tới section)

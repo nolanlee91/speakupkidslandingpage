@@ -44,7 +44,7 @@ export function Units() {
             <h2 className="section-title" id="path-title">Từ những âm đầu tiên đến tiếng Anh để giải quyết vấn đề</h2>
           </div>
           <p className="section-lead">
-            Con chưa biết tiếng Anh có thể bắt đầu bằng 10 bài nền tảng ở Level 0. Level 1–3 có 30+ bài mỗi Level
+            Con chưa biết tiếng Anh có thể bắt đầu bằng 10 bài nền tảng ở Level 0. Mỗi cấp độ từ Level 1–3 có 30+ bài
             và được cập nhật nội dung mới hàng tuần.
           </p>
         </div>

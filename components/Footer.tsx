@@ -7,7 +7,6 @@ export function Footer() {
       {nav.map((n) => (
         <a key={n.href} href={n.href}>{n.label}</a>
       ))}
-      <a href="#">Quyền riêng tư</a>
       <span className="copy">© 2026 SpeakUp Kids</span>
     </footer>
   );

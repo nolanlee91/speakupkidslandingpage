@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IMG } from "@/lib/site";
 
 const GAMES: { img: string; title: string; desc: string; skill: string; cls: "t" | "g" | "c" | "b" }[] = [
-  { img: "game-picdet", title: "Picture Detective", desc: "Quan sát một bức tranh, suy luận, chọn mô tả đúng rồi xây câu và nói theo Maple.", skill: "Luyện: quan sát · suy luận · mô tả tranh", cls: "t" },
+  { img: "game-picdet", title: "Picture Detective", desc: "Quan sát một bức tranh, suy luận, chọn mô tả đúng rồi xây câu và nghe Maple đọc mẫu.", skill: "Luyện: quan sát · suy luận · mô tả tranh", cls: "t" },
   { img: "game-puzzle", title: "Sentence Puzzle", desc: "Sắp xếp các từ thành câu tiếng Anh đúng theo từng chủ đề và cấp độ.", skill: "Luyện: trật tự từ · cấu trúc câu", cls: "g" },
   { img: "game-riddle", title: "English Riddles", desc: "Đọc hoặc nghe các manh mối tiếng Anh rồi chọn lời giải hợp lý.", skill: "Luyện: đọc/nghe hiểu · suy luận từ manh mối", cls: "c" },
   { img: "game-listen", title: "Listen & Choose", desc: "Nghe Maple đọc câu tiếng Anh rồi chọn đúng ý nghĩa trong các đáp án.", skill: "Luyện: nghe hiểu · nhận biết ý nghĩa", cls: "b" },
@@ -16,7 +16,7 @@ export function Games() {
           <span className="eyebrow">Luyện tập</span>
           <h2 className="section-title" id="games-title">Trò chơi nào cũng luyện một kỹ năng</h2>
           <p className="section-lead">
-            Mỗi hoạt động được thiết kế quanh một mục tiêu học tập — chơi có chủ đích, không phải cổng game.
+            Mỗi hoạt động được thiết kế quanh một mục tiêu học tập — con chơi để luyện đúng kỹ năng, không chỉ để tích điểm.
           </p>
         </div>
 

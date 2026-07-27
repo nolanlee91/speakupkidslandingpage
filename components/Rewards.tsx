@@ -14,9 +14,9 @@ export function Rewards() {
           </p>
           <ul className="rewards-list">
             <li><span className="star" style={{ fontSize: 17 }}>★</span>Sao cho từng bài hoàn thành tốt</li>
-            <li><span className="orb teal" style={{ width: 17, height: 17, border: "none" }} />Huy hiệu khi xong mỗi Unit</li>
+            <li><span className="orb teal" style={{ width: 17, height: 17, border: "none" }} />Huy hiệu khi hoàn thành từng chặng học</li>
             <li><span style={{ color: "var(--coral)", fontSize: 16 }}>❋</span>Sticker và bộ sưu tập theo chủ đề</li>
-            <li><span style={{ color: "var(--teal-d)" }}>▸</span>Vùng đất mới mở sau mỗi Adventure</li>
+            <li><span style={{ color: "var(--teal-d)" }}>▸</span>Vùng đất mới mở sau mỗi cuộc phiêu lưu</li>
           </ul>
         </div>
 

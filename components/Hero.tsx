@@ -22,20 +22,20 @@ export function Hero() {
           <span className="eyebrow">Tiếng Anh cho trẻ 9–12 tuổi</span>
           <h1 id="hero-title">Học chắc từng bước. Dùng tiếng Anh để khám phá.</h1>
           <p className="hero-lead">
-            Bốn Level Learn xây nền tảng từ bước đầu tiên, Practice giúp luyện lại có chấm điểm,
+            Bốn cấp độ Learn xây nền tảng từ bước đầu tiên, Practice giúp luyện lại có chấm điểm,
             còn Adventure đưa tiếng Anh vào một câu chuyện mà con thật sự muốn đi tiếp.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary btn-lg" href={site.appUrl}>Cho con học thử miễn phí</a>
-            <a className="btn btn-secondary btn-lg" href={site.appUrl}>
+            <a className="btn btn-secondary btn-lg" href="#cach-hoc">
               <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5l9 5.5-9 5.5z" fill="#F0654A" /></svg>
-              Xem app hoạt động
+              Khám phá lộ trình
             </a>
           </div>
           <ul className="hero-points">
-            <li><span className="dot" />4 Level · 100+ bài Learn</li>
-            <li><span className="dot" />4 Practice game</li>
-            <li><span className="dot gold" />8+ Season · 50+ Chapter</li>
+            <li><span className="dot" />4 cấp độ · 100+ bài học</li>
+            <li><span className="dot" />4 trò chơi luyện tập</li>
+            <li><span className="dot gold" />8+ mùa · 50+ chương</li>
           </ul>
         </div>
       </div>
