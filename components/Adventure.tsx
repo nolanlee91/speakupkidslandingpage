@@ -71,7 +71,7 @@ const SEASONS = [
 const JOURNEY = [
   ["01", "Chọn một mùa", "Mỗi mùa là một câu chuyện độc lập, con có thể bắt đầu ở thế giới mình thích."],
   ["02", "Đi qua từng chương", "Đọc, nghe, quan sát tranh và đưa ra lựa chọn để mở điểm tiếp theo trên bản đồ."],
-  ["03", "Mang phần thưởng về", "Mỗi chặng mở khóa vật phẩm, huy hiệu và một phần mới trong bộ sưu tập của Maple."],
+  ["03", "Mang kỷ vật về Clubhouse", "Đạo cụ từng chương ở lại trong câu chuyện; hoàn thành cả mùa mới nhận một kỷ vật Adventure trong My Journal."],
 ] as const;
 
 export function Adventure() {
@@ -125,7 +125,7 @@ export function Adventure() {
             <div className="adventure-stats" aria-label="Thông tin Adventure">
               <span><b>8+</b> mùa</span>
               <span><b>50+</b> chương</span>
-              <span><b>60+</b> vật phẩm</span>
+              <span><b>8</b> kỷ vật mùa</span>
             </div>
             <a className="btn btn-primary" href={site.appUrl}>Bắt đầu phiêu lưu</a>
           </div>

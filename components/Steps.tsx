@@ -12,10 +12,10 @@ export function Steps() {
       <div className="container">
         <div className="center" style={{ maxWidth: 660, margin: "0 auto 8px" }}>
           <span className="eyebrow">Cách học</span>
-          <h2 className="section-title" id="steps-title">Ba phần khác nhau, cùng giữ một nhịp học</h2>
+          <h2 className="section-title" id="steps-title">Một nhịp học rõ ràng, một thế giới để khám phá</h2>
           <p className="section-lead">
-            Learn, Practice và Adventure có tiến độ riêng. Con có thể học bài mới, luyện đúng điểm còn yếu
-            hoặc tiếp tục câu chuyện — không bị ép đi theo một vòng lặp cứng.
+            Mỗi ngày con học một chặng rồi luyện lại để nhớ lâu. Clubhouse lưu dấu thành quả;
+            Adventure là chuyến khám phá tự chọn, có tiến độ và câu chuyện riêng.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export function Steps() {
             <Image className="step-fig" src={`${IMG}/gen/maple-pose-cheer.webp`} alt="Maple reo mừng" width={150} height={150} />
             <div className="step-card">
               <div className="step-head"><span className="step-num c">Khám phá</span><h3>Adventure</h3></div>
-              <p>Mỗi mùa là một câu chuyện độc lập. Con quan sát, đọc hiểu và suy luận để mở chương tiếp theo — không phụ thuộc số bài Learn đã hoàn thành.</p>
+              <p>Mỗi mùa là một câu chuyện độc lập. Con quan sát, đọc hiểu và suy luận để mở chương tiếp theo — một lựa chọn khám phá, không phải bài tập bắt buộc mỗi ngày.</p>
               <div className="step-demo c">
                 <div className="demo-row">
                   <span className="demo-ic c" aria-hidden="true">

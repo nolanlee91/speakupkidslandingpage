@@ -22,8 +22,8 @@ export function Hero() {
           <span className="eyebrow">Tiếng Anh cho trẻ 9–12 tuổi</span>
           <h1 id="hero-title">Học chắc từng bước. Dùng tiếng Anh để khám phá.</h1>
           <p className="hero-lead">
-            Bốn cấp độ Learn xây nền tảng từ bước đầu tiên, Practice giúp luyện lại có chấm điểm,
-            còn Adventure đưa tiếng Anh vào một câu chuyện mà con thật sự muốn đi tiếp.
+            Bốn cấp độ Learn xây nền tảng từ bước đầu tiên, Practice giúp luyện lại và nhận phản hồi ngay,
+            còn Adventure mở ra những câu chuyện độc lập mà con thật sự muốn đi tiếp.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary btn-lg" href={site.appUrl}>Cho con học thử miễn phí</a>
@@ -34,8 +34,9 @@ export function Hero() {
           </div>
           <ul className="hero-points">
             <li><span className="dot" />4 cấp độ · 100+ bài học</li>
-            <li><span className="dot" />4 trò chơi luyện tập</li>
+            <li><span className="dot" />4 trò luyện tập · có luyện nói lấy sao</li>
             <li><span className="dot gold" />8+ mùa · 50+ chương</li>
+            <li><span className="dot gold" />Kiếm Coins · tự xây Maple Clubhouse</li>
           </ul>
         </div>
       </div>

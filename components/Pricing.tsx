@@ -18,9 +18,10 @@ export function Pricing() {
             <div className="plan-sub">Dùng thử không giới hạn thời gian</div>
             <ul className="plan-features">
               <li><span className="ck">✓</span>Toàn bộ Level 0 Phonics</li>
-              <li><span className="ck">✓</span>Learn: 3 bài đầu L1/L2 · 1 bài mỗi collection L3</li>
-              <li><span className="ck">✓</span>Practice: 4 bộ Đố vui · 4 cảnh Thám tử</li>
-              <li><span className="ck">✓</span>Adventure: Season 1</li>
+              <li><span className="ck">✓</span>Learn: 3 bài đầu L1/L2 · 3 bài mỗi collection L3</li>
+              <li><span className="ck">✓</span>Practice: 3 card đầu Thám tử/Xếp câu/Đố vui · 2 bộ Nghe</li>
+              <li><span className="ck">✓</span>Adventure: Season 1–2</li>
+              <li><span className="ck">✓</span>Luyện nói lấy sao trên trình duyệt hỗ trợ</li>
               <li><span className="ck">✓</span>Báo cáo tuần rút gọn <span className="soon-tag" style={{ padding: "2px 8px" }}>sắp có</span></li>
             </ul>
             <a className="btn btn-outline plan-cta btn-block" href={site.appUrl}>Bắt đầu miễn phí</a>
@@ -37,7 +38,7 @@ export function Pricing() {
               <li><span className="ck">✓</span>Đủ 4 trò chơi, gồm Xếp câu &amp; Nghe &amp; chọn</li>
               <li><span className="ck">✓</span>Trọn bộ Adventure: Season 1–8</li>
               <li><span className="ck">✓</span>Báo cáo chi tiết cho phụ huynh <span className="soon-tag" style={{ padding: "2px 8px" }}>sắp có</span></li>
-              <li><span className="ck">✓</span>Sticker &amp; bộ sưu tập đầy đủ</li>
+              <li><span className="ck">✓</span>Toàn bộ kỷ vật trong Maple Clubhouse</li>
               <li><span className="ck">✓</span>Nội dung mới được bổ sung thường xuyên</li>
             </ul>
             <a className="btn btn-primary plan-cta btn-block" href={site.appUrl}>Mở Pro trọn đời</a>
@@ -47,7 +48,7 @@ export function Pricing() {
           <div className="plan">
             <div className="plan-name">Premium <span className="soon-tag">Sắp ra mắt</span></div>
             <div className="plan-price">Sắp ra mắt</div>
-            <div className="plan-sub">Luyện nói sâu hơn với phản hồi từ AI</div>
+            <div className="plan-sub">Chấm phát âm sâu hơn bằng dịch vụ AI chuyên dụng</div>
             <ul className="plan-features">
               <li><span className="ck">✓</span>Mọi quyền lợi Pro</li>
               <li><span className="ck">✓</span>Ghi âm và AI chấm phát âm</li>
@@ -66,7 +67,7 @@ export function Pricing() {
             <ul className="plan-features">
               <li><span className="ck">✓</span>Mọi quyền lợi Pro</li>
               <li><span className="ck">✓</span>Đến 4 hồ sơ con riêng biệt</li>
-              <li><span className="ck">✓</span>Tiến độ và bộ sưu tập tách riêng</li>
+              <li><span className="ck">✓</span>Tiến độ, Clubhouse và kỷ vật tách riêng</li>
               <li><span className="ck">✓</span>Báo cáo riêng cho từng con</li>
             </ul>
             <span className="btn btn-outline plan-cta btn-block" aria-disabled="true">Sắp ra mắt</span>

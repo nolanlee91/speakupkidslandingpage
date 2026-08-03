@@ -17,6 +17,7 @@ export function Games() {
           <h2 className="section-title" id="games-title">Trò chơi nào cũng luyện một kỹ năng</h2>
           <p className="section-lead">
             Mỗi hoạt động được thiết kế quanh một mục tiêu học tập — con chơi để luyện đúng kỹ năng, không chỉ để tích điểm.
+            Ở phần Speaking và Echo, trình duyệt có thể nghe câu con đọc, so với câu mẫu và tặng sao khuyến khích.
           </p>
         </div>
 

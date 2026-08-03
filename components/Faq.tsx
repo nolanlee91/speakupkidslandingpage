@@ -10,7 +10,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "App có phải chỉ là trò chơi không?",
-    a: "Không. Mỗi hoạt động gắn với một mục tiêu học cụ thể và được máy chấm. Con học kiến thức (Learn), luyện tập có đáp án (Practice), rồi vận dụng trong nhiệm vụ (Adventure) — chơi có chủ đích.",
+    a: "Không. Learn xây kiến thức theo lộ trình; Practice luyện lại có đáp án và phản hồi ngay. Adventure là khu truyện tương tác độc lập để con đọc, quan sát và suy luận — không phải bước bắt buộc sau mỗi bài Learn.",
   },
   {
     q: "Phụ huynh có theo dõi tiến độ được không?",
@@ -22,7 +22,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Có dùng thử miễn phí không?",
-    a: "Có. Con có thể học toàn bộ Level 0 Phonics, một số bài Learn, Đố vui, Thám tử hình ảnh và Adventure Season 1 mà không cần thẻ. Khi phù hợp, phụ huynh có thể mở Pro trọn đời bằng một lần thanh toán.",
+    a: "Có. Con được học toàn bộ Level 0 Phonics, các bài mở đầu ở mỗi Level Learn, một phần của cả bốn trò Practice và Adventure Season 1–2 mà không cần thẻ. Khi phù hợp, phụ huynh có thể mở Pro trọn đời bằng một lần thanh toán.",
   },
 ];
 
