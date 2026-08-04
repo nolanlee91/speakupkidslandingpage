@@ -285,7 +285,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
 
 /* ============ GAMES ============ */
 .games { background: var(--cream); }
-.games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 40px; }
+.games-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }
 .game-card {
   position: relative; overflow: hidden; background: #fff; border: 1px solid var(--line);
   border-radius: 20px; padding: 20px;
@@ -482,6 +482,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   object-fit: contain; filter: drop-shadow(0 10px 14px rgba(39, 52, 92, 0.2));
   transition: transform .48s cubic-bezier(.2,.8,.2,1), filter .35s ease;
 }
+.clubhouse-showcase{overflow:hidden;border:1px solid rgba(63,191,175,.2);border-radius:26px;background:#fff;box-shadow:var(--shadow-lg);transition:transform .38s cubic-bezier(.2,.75,.2,1),box-shadow .35s ease}.clubhouse-scene{position:relative;overflow:hidden;aspect-ratio:16/10;background:#102333}.clubhouse-scene>img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.75,.2,1)}.clubhouse-scene:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 58%,rgba(5,20,31,.42));pointer-events:none}.clubhouse-scene-tag{position:absolute;z-index:4;left:16px;top:16px;padding:7px 11px;border:1px solid rgba(255,255,255,.3);border-radius:999px;background:rgba(7,25,45,.78);color:#fff;font-size:10px;font-weight:900;letter-spacing:.13em;backdrop-filter:blur(10px)}.landing-pet{position:absolute;z-index:3;bottom:-2%;width:29%;aspect-ratio:1;background-repeat:no-repeat;background-size:300% 200%;background-position:100% 0;filter:drop-shadow(0 10px 8px rgba(0,0,0,.45));transition:transform .42s cubic-bezier(.2,.8,.2,1)}.landing-pet-dog{left:27%;background-image:url('/assets/images/clubhouse/clubhouse-pet-dog.webp')}.landing-pet-cat{right:17%;width:25%;background-image:url('/assets/images/clubhouse/clubhouse-pet-cat.webp')}.clubhouse-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}.clubhouse-facts>div{display:grid;justify-items:center;gap:1px;padding:16px 8px;background:#fff}.clubhouse-facts b{color:var(--navy);font-family:var(--font-head);font-size:25px}.clubhouse-facts span{color:var(--muted);font-size:11px;font-weight:800}.clubhouse-showcase>p{margin:0;padding:14px 18px;color:var(--muted);font-size:12px;font-weight:700;line-height:1.5;text-align:center}
 
 @media (hover: hover) and (pointer: fine) {
   .step:hover .step-fig {
@@ -503,6 +504,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .feature:nth-child(even):hover .feature-ic { transform: rotate(5deg) scale(1.1); }
 
   .rewards-list li:hover { transform: translateX(6px); color: var(--teal-d); }
+  .clubhouse-showcase:hover{transform:translateY(-8px) rotate(.25deg);box-shadow:0 28px 58px rgba(39,52,92,.2)}.clubhouse-showcase:hover .clubhouse-scene>img{transform:scale(1.035)}.clubhouse-showcase:hover .landing-pet-dog{transform:translateY(-8px) rotate(-3deg)}.clubhouse-showcase:hover .landing-pet-cat{transform:translateY(-6px) rotate(3deg)}
   .collect-card:hover {
     transform: translateY(-8px) rotate(.35deg);
     box-shadow: 0 28px 58px rgba(39,52,92,.2);
@@ -669,7 +671,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .season-cover { min-height: 190px; aspect-ratio: auto; }
   .season-body h3, .season-vi, .season-body p { min-height: 0; }
   .season-body p { margin: 8px 0; }
-  .unit-card, .collect-card { transform: none !important; }
+  .unit-card, .collect-card, .clubhouse-showcase { transform: none !important; }
 
   .hero { min-height: 0; }
   .hero-parallax { top: 0; height: 270px; transform: none !important; }
@@ -689,6 +691,7 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.4px; text-wrap: p
   .orb { width: 58px; height: 58px; }
   .collect-card { padding: 24px 20px; }
   .collect-week { gap: 12px; }
+  .clubhouse-facts b{font-size:21px}.clubhouse-facts span{font-size:10px}.clubhouse-showcase>p{padding:12px 14px}
   .parents-check { grid-template-columns: 1fr; gap: 10px; }
   .report { padding: 22px 18px; }
   .report-stats { gap: 7px; }

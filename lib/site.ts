@@ -4,9 +4,9 @@ export const site = {
   // URL app thật (đang chạy). Đổi thành domain production của bạn khi có.
   appUrl: "https://app.speakupkids.net/",
   url: "https://speakupkids.net",
-  title: "SpeakUp Kids — Lộ trình tiếng Anh qua Learn, Practice & Adventure (9–12 tuổi)",
+  title: "SpeakUp Kids — Học tiếng Anh, khám phá và xây Maple Clubhouse (9–12 tuổi)",
   description:
-    "100+ bài qua bốn cấp độ Learn, bốn trò Practice có phản hồi và luyện nói lấy sao, Maple Clubhouse lưu kỷ vật, cùng 8+ mùa Adventure với 50+ chương cho trẻ 9–12 tuổi.",
+    "100+ bài qua bốn cấp độ Learn, sáu trò Practice có phản hồi, 8+ mùa Adventure và Maple Clubhouse với 32 món nội thất cùng hai pet cho trẻ 9–12 tuổi.",
 };
 
 // Điều hướng trong trang (anchor thật, cuộn tới section)
@@ -14,6 +14,7 @@ export const nav = [
   { label: "Cách học", href: "#cach-hoc" },
   { label: "Lộ trình", href: "#lo-trinh" },
   { label: "Adventure", href: "#phieu-luu" },
+  { label: "Clubhouse", href: "#clubhouse" },
   { label: "Dành cho phụ huynh", href: "#phu-huynh" },
   { label: "Bảng giá", href: "#bang-gia" },
 ];

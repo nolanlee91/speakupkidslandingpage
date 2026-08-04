@@ -34,9 +34,9 @@ export function Hero() {
           </div>
           <ul className="hero-points">
             <li><span className="dot" />4 cấp độ · 100+ bài học</li>
-            <li><span className="dot" />4 trò luyện tập · có luyện nói lấy sao</li>
+            <li><span className="dot" />6 trò luyện tập · có viết và ngữ pháp</li>
             <li><span className="dot gold" />8+ mùa · 50+ chương</li>
-            <li><span className="dot gold" />Kiếm Coins · tự xây Maple Clubhouse</li>
+            <li><span className="dot gold" />32 món nội thất · nhận nuôi chó hoặc mèo</li>
           </ul>
         </div>
       </div>

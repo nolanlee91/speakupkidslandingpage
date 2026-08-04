@@ -6,6 +6,8 @@ const GAMES: { img: string; title: string; desc: string; skill: string; cls: "t"
   { img: "game-puzzle", title: "Sentence Puzzle", desc: "Sắp xếp các từ thành câu tiếng Anh đúng theo từng chủ đề và cấp độ.", skill: "Luyện: trật tự từ · cấu trúc câu", cls: "g" },
   { img: "game-riddle", title: "English Riddles", desc: "Đọc hoặc nghe các manh mối tiếng Anh rồi chọn lời giải hợp lý.", skill: "Luyện: đọc/nghe hiểu · suy luận từ manh mối", cls: "c" },
   { img: "game-listen", title: "Listen & Choose", desc: "Nghe Maple đọc câu tiếng Anh rồi chọn đúng ý nghĩa trong các đáp án.", skill: "Luyện: nghe hiểu · nhận biết ý nghĩa", cls: "b" },
+  { img: "game-writing", title: "Writing Coach", desc: "Viết câu và đoạn ngắn theo gợi ý; máy chấm cấu trúc, từ khóa, viết hoa và dấu câu ngay trên thiết bị.", skill: "Luyện: viết câu · diễn đạt · tự sửa", cls: "c" },
+  { img: "game-grammar", title: "Grammar Path", desc: "Học quy tắc ngắn rồi luyện theo bốn trục: các thì, câu hỏi, so sánh và nền tảng câu.", skill: "Luyện: ngữ pháp có hệ thống · 160 câu", cls: "t" },
 ];
 
 export function Games() {
@@ -17,7 +19,7 @@ export function Games() {
           <h2 className="section-title" id="games-title">Trò chơi nào cũng luyện một kỹ năng</h2>
           <p className="section-lead">
             Mỗi hoạt động được thiết kế quanh một mục tiêu học tập — con chơi để luyện đúng kỹ năng, không chỉ để tích điểm.
-            Ở phần Speaking và Echo, trình duyệt có thể nghe câu con đọc, so với câu mẫu và tặng sao khuyến khích.
+            Writing Coach và Grammar Path bổ sung phần học có cấu trúc, để Practice không chỉ là các lượt chơi ngắn.
           </p>
         </div>
 

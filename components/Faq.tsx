@@ -14,7 +14,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Phụ huynh có theo dõi tiến độ được không?",
-    a: "Báo cáo tuần cho phụ huynh đang được hoàn thiện và sẽ sớm ra mắt: tóm tắt bài đã học, kỹ năng đang luyện, điểm mạnh và phần cần ôn — bằng ngôn ngữ dễ hiểu.",
+    a: "Có. Phụ huynh có thể bật báo cáo tuần qua email để nhận tóm tắt bài đã học, câu đã luyện, sao, streak, độ chính xác theo chủ đề và phần cần ôn — bằng ngôn ngữ dễ hiểu.",
   },
   {
     q: "Có thể dùng trên tablet và điện thoại không?",
@@ -22,7 +22,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "Có dùng thử miễn phí không?",
-    a: "Có. Con được học toàn bộ Level 0 Phonics, các bài mở đầu ở mỗi Level Learn, một phần của cả bốn trò Practice và Adventure Season 1–2 mà không cần thẻ. Khi phù hợp, phụ huynh có thể mở Pro trọn đời bằng một lần thanh toán.",
+    a: "Có. Con được học toàn bộ Level 0 Phonics, ba bài đầu ở Level 1/2 và mỗi collection Level 3, các bộ mở đầu của cả sáu trò Practice cùng Adventure Season 1–2. Khi phù hợp, phụ huynh có thể mở Pro trọn đời bằng một lần thanh toán.",
   },
 ];
 

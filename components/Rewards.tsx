@@ -1,41 +1,35 @@
-import Image from "next/image";
-import { IMG } from "@/lib/site";
-
 export function Rewards() {
   return (
-    <section className="section rewards" aria-labelledby="rewards-title">
+    <section className="section rewards" id="clubhouse" aria-labelledby="rewards-title">
       <div className="container rewards-grid">
         <div>
-          <span className="eyebrow gold">Động lực</span>
-          <h2 className="section-title" id="rewards-title">Mọi thành quả đều trở về Maple Clubhouse</h2>
+          <span className="eyebrow gold">Maple Clubhouse</span>
+          <h2 className="section-title" id="rewards-title">Học để xây một ngôi nhà thật sự là của con</h2>
           <p className="section-lead">
-            Không còn nhiều hệ thống phần thưởng rời rạc. Con hoàn thành hoạt động để nhận Maple Coins,
-            tự chọn nội thất và nhìn căn phòng cùng cuốn sổ hành trình đầy dần theo thời gian.
+            Learn, Practice và Adventure tạo ra Maple Coins. Con tự chọn nội thất, sắp xếp năm căn phòng
+            và từng bước mở một không gian riêng — không phải bảng điểm trang trí cho có.
           </p>
           <ul className="rewards-list">
-            <li><span className="star" style={{ fontSize: 17 }}>★</span>Sao và chuỗi ngày cho biết tiến độ hiện tại</li>
-            <li><span className="orb teal" style={{ width: 17, height: 17, border: "none" }} />Learn, Practice và Chapter mới thưởng Coins một lần</li>
-            <li><span style={{ color: "var(--coral)", fontSize: 16 }}>❋</span>Shop giá cố định, không loot box hay tiền thật</li>
-            <li><span style={{ color: "var(--teal-d)" }}>▸</span>Sticker, huy hiệu và quà Season là kỷ vật không thể mua</li>
+            <li><span className="star" style={{ fontSize: 17 }}>★</span><b>32 món nội thất</b> qua Trail, Cosmic, Studio và Prestige Club</li>
+            <li><span className="orb teal" style={{ width: 17, height: 17, border: "none" }} /><b>Kéo, xoay, phóng to</b> và chuyển đồ giữa năm phòng</li>
+            <li><span style={{ color: "var(--coral)", fontSize: 16 }}>●</span>Mở <b>Pet Retreat</b> để nhận nuôi Scout hoặc Misty và tự đặt tên</li>
+            <li><span style={{ color: "var(--teal-d)" }}>▸</span>Shop giá cố định; không loot box, không bán Coin bằng tiền thật</li>
           </ul>
         </div>
 
-        <div className="collect-card" aria-label="Maple Clubhouse của con">
-          <h3>Maple Clubhouse</h3>
-          <div className="orbs">
-            <span className="orb teal">ROOM</span>
-            <span className="orb gold">STICKER</span>
-            <span className="orb empty">?</span>
-            <span className="orb empty">?</span>
+        <div className="clubhouse-showcase" aria-label="Phòng Clubhouse và hai pet có thể nhận nuôi">
+          <div className="clubhouse-scene">
+            <img src="/assets/images/clubhouse/maple-clubhouse-room-v2.webp" alt="Phòng khách Maple Clubhouse nhìn ra Vancouver" />
+            <span className="landing-pet landing-pet-dog" role="img" aria-label="Scout, chú chó lông vàng" />
+            <span className="landing-pet landing-pet-cat" role="img" aria-label="Misty, mèo mướp xám" />
+            <span className="clubhouse-scene-tag">MAKE IT YOURS</span>
           </div>
-          <div className="collect-week">
-            <div>
-              <div className="d1">My Room · Shop · Journey Book</div>
-              <div className="d2">Mua, trưng bày và cất nội thất bất cứ lúc nào</div>
-            </div>
-            <div style={{ fontSize: 22, color: "var(--gold)", letterSpacing: 2 }}>★ 128</div>
+          <div className="clubhouse-facts">
+            <div><b>32</b><span>món nội thất</span></div>
+            <div><b>5</b><span>căn phòng</span></div>
+            <div><b>2</b><span>pet để chọn</span></div>
           </div>
-          <Image className="collect-fig" src={`${IMG}/gen/mascot-star.webp`} alt="" aria-hidden="true" width={104} height={104} />
+          <p>Pet Retreat thuộc Prestige Club. Sở hữu món này để nhận nuôi một người bạn đồng hành miễn phí.</p>
         </div>
       </div>
     </section>
